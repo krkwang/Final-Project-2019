@@ -9,6 +9,7 @@
 }
 body{
 	overflow-y: scroll;
+	background-color: #485460;
 }
 a {
 }
@@ -31,8 +32,15 @@ p {
 /*	NAV
 ----------------------------------*/
 .top{
-	background-color: #f7f1e3;
-	border-bottom: 1px solid #d1ccc0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #485460;
+	/*border-bottom: 1px solid #ff793f;*/
+}
+.space-from-nav{
+	width: 100%;
+	padding: 50px 0 50px 0;
 }
 .nav{
 	display: flex;
@@ -40,7 +48,7 @@ p {
   justify-content: space-between;
 	align-items: center;
   height: 100px;
-	margin-left: 4%;
+	margin-left: 2%;
 }
 /*	FIX FOR OUR SOLUTION */
 .nav-link{
@@ -49,7 +57,7 @@ p {
   background-color: #ffda79;
 }
 .nav-air{
-	flex-basis: 20%;
+	flex-basis: 25%;
 	height: 100px;
 }
 .nav-link:hover{
@@ -63,8 +71,8 @@ p {
 }
 .active{
 	background-color: #ff793f;
-	font-style: oblique;
-	padding: 30px 13px 30px 13px;
+	/*font-style: oblique;*/
+	/*padding: 30px 13px 30px 13px;*/
 }
 /*	TOP
 ----------------------------------*/
@@ -79,9 +87,16 @@ p {
 /*	HOME
 ----------------------------------*/
 .content {
-	padding-top: 32px;
-	padding-left: 4%;
-	padding-right: 4%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color: #f7f1e3;
+}
+.content h1, p{
+	padding-top: 35px;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 /*	PROBLEM
