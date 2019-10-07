@@ -8,6 +8,8 @@
 	font-family: sans-serif;
 }
 a {
+	color: black;
+	text-decoration: none;
 }
 h1 {
 }
@@ -20,14 +22,27 @@ p {
 
 /*	NAV
 ----------------------------------*/
-.nav {
+.top{
 }
-a.navLink {
-	color: black;
-	text-decoration: none;
+.nav{
+	display: flex;
+  justify-content: space-around;
+  background-color: #f7f1e3;
+  align-items: center;
+  height: 100px;
 }
-a.navLink:hover {
-	text-decoration: underline;
+.nav-link{
+  font-size: 35px;
+  margin: 5px 0 5px 0;
+  padding: 15px 15px 15px 15px;
+  background-color: #ffda79;
+}
+.nav-air{
+	flex-basis: 30%;
+	height: 100px;
+}
+.navlink:hover{
+  background-color: #ff793f;
 }
 /*	TOP
 ----------------------------------*/
