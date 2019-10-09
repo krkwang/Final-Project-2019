@@ -87,6 +87,7 @@ p {
 }
 .nav-dropdown{
 	display: none;
+	width: 560%;
 }
 .nav-dropdown a{
 	display: block;
