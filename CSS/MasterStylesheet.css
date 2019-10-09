@@ -104,6 +104,10 @@ p {
 .dropdown:focus {
 	pointer-events: none;
 }
+.dropdown:focus,
+.top:focus {
+	outline: none;
+}
 
 @media (max-width: 1440px) {
 	.nav-air {
