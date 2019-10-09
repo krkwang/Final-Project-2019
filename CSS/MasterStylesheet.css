@@ -94,12 +94,15 @@ p {
 	color: black;
 	text-decoration: none;
 }
-.dropdown:hover .nav-dropdown,
 .dropdown:focus .nav-dropdown {
 	display: block;
+	pointer-events: auto;
 }
-.dropdown:hover .dropdown-icon {
+.dropdown:focus .dropdown-icon {
 	fill: #ff793f;
+}
+.dropdown:focus {
+	pointer-events: none;
 }
 
 @media (max-width: 1440px) {
