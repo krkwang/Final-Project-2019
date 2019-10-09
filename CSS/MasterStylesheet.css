@@ -83,10 +83,10 @@ p {
 	display: none;
 	width: 100px;
 	height: 100px;
+	fill: #ffda79;
 }
 .nav-dropdown{
 	display: none;
-
 }
 .nav-dropdown a{
 	display: block;
@@ -96,7 +96,9 @@ p {
 .dropdown:hover .nav-dropdown,
 .dropdown:focus .nav-dropdown{
 	display: block;
-
+}
+.dropdown:hover .dropdown-icon{
+	fill: #ff793f;
 }
 
 @media (max-width: 1440px){
