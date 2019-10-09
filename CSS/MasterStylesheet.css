@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 	font-family: sans-serif, times;
 }
-body{
+body {
 	overflow-y: scroll;
 	background-color: #485460;
 }
@@ -26,13 +26,13 @@ p {
 	line-height: 1.25;
 	padding: 20px 0 20px 0;
 }
-.title-color{
+.title-color {
 	color: #ff793f;
 }
 
 /*	NAV
 ----------------------------------*/
-.top{
+.top {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -40,83 +40,83 @@ p {
 	background-color: #485460;
 	/*border-bottom: 1px solid #ff793f;*/
 }
-.space-from-nav{
+.space-from-nav {
 	width: 100%;
 	padding: 50px 0 50px 0;
 }
-.nav{
+.nav {
 	display: flex;
 	flex-wrap: nowrap;
-  justify-content: space-between;
+	justify-content: space-between;
 	align-items: center;
-  height: 100px;
+	height: 100px;
 	margin-left: 2%;
 }
 /*	FIX FOR OUR SOLUTION */
-.nav-link{
-  font-size: 35px;
-  padding: 14px 13px 14px 13px;
-  background-color: #ffda79;
+.nav-link {
+	font-size: 35px;
+	padding: 14px 13px 14px 13px;
+	background-color: #ffda79;
 }
-.nav-air{
+.nav-air {
 	flex-basis: 25%;
 	height: 100px;
 }
-.nav-link:hover{
-  background-color: #ff793f;
+.nav-link:hover {
+	background-color: #ff793f;
 	font-style: oblique;
 	color: white;
 }
-.nav a{
+.nav a {
 	color: black;
 	text-decoration: none;
 }
-.active{
+.active {
 	background-color: #ff793f;
 	/*font-style: oblique;*/
 	/*padding: 30px 13px 30px 13px;*/
 }
-.dropdown{
+.dropdown {
 	width: 18%;
 }
-.dropdown-icon{
+.dropdown-icon {
 	display: none;
 	width: 100px;
 	height: 100px;
 	fill: #ffda79;
 }
-.nav-dropdown{
+.nav-dropdown {
 	display: none;
 	width: 560%;
 }
-.nav-dropdown a{
+.nav-dropdown a {
 	display: block;
 	color: black;
 	text-decoration: none;
 }
 .dropdown:hover .nav-dropdown,
-.dropdown:focus .nav-dropdown{
+.dropdown:focus .nav-dropdown {
 	display: block;
 }
-.dropdown:hover .dropdown-icon{
+.dropdown:hover .dropdown-icon {
 	fill: #ff793f;
 }
 
-@media (max-width: 1440px){
-	.nav-air{
+@media (max-width: 1440px) {
+	.nav-air {
 		flex-basis: 15%;
 	}
 }
-@media (max-width: 1024px){
-	.nav-air{
+@media (max-width: 1024px) {
+	.nav-air {
 		flex-basis: 5%;
 	}
 }
-@media (max-width: 768px){
-	.nav{
+@media (max-width: 768px) {
+	.nav {
 		display: none;
 	}
-	.dropdown-icon{
+	.dropdown-icon {
 		display: block;
 	}
 }
@@ -140,7 +140,8 @@ p {
 	margin-right: 2%;
 	background-color: #f7f1e3;
 }
-.content h1, p{
+.content h1,
+p {
 	padding-top: 35px;
 	padding-left: 2%;
 	padding-right: 2%;
