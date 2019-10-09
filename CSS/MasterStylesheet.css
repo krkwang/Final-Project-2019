@@ -15,6 +15,7 @@ a {
 }
 h1 {
 	font-size: 45px;
+	>/*text-shadow: 0.5px 0.5px black, -0.5px -0.5px black;*/
 }
 h2 {
 }
@@ -35,6 +36,7 @@ p {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	height: 100px;
 	background-color: #485460;
 	/*border-bottom: 1px solid #ff793f;*/
 }
@@ -74,6 +76,48 @@ p {
 	/*font-style: oblique;*/
 	/*padding: 30px 13px 30px 13px;*/
 }
+.dropdown{
+
+}
+.dropdown-icon{
+	display: none;
+	width: 100px;
+	height: 100px;
+}
+.nav-dropdown{
+	display: none;
+
+}
+.nav-dropdown a{
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+.dropdown:hover .nav-dropdown,
+.dropdown:focus .nav-dropdown{
+	display: block;
+
+}
+
+@media (max-width: 1440px){
+	.nav-air{
+		flex-basis: 15%;
+	}
+}
+@media (max-width: 1024px){
+	.nav-air{
+		flex-basis: 5%;
+	}
+}
+@media (max-width: 768px){
+	.nav{
+		display: none;
+	}
+	.dropdown-icon{
+		display: block;
+	}
+}
+
 /*	TOP
 ----------------------------------*/
 .top {
