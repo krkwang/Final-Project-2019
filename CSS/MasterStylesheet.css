@@ -40,10 +40,6 @@ p {
 	background-color: #485460;
 	/*border-bottom: 1px solid #ff793f;*/
 }
-.space-from-nav {
-	width: 100%;
-	padding: 50px 0 50px 0;
-}
 .nav {
 	display: flex;
 	flex-wrap: nowrap;
@@ -142,6 +138,9 @@ p {
 
 /*	HOME
 ----------------------------------*/
+main.page {
+	padding-top: 100px;
+}
 .content {
 	margin-top: 37px;
 	margin-bottom: 37px;
