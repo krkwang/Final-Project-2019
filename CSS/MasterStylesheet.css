@@ -38,6 +38,7 @@ p {
 	width: 100%;
 	height: 100px;
 	background-color: #485460;
+	z-index: 1000;
 }
 .nav {
 	display: flex;
@@ -59,7 +60,7 @@ p {
 .nav-link:hover {
 	background-color: #ff793f;
 	font-style: oblique;
-	color: white;
+	/*color: white; FOR LAV KONTRAST*/
 }
 .nav a {
 	color: black;
