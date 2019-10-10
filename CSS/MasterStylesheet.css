@@ -38,11 +38,6 @@ p {
 	width: 100%;
 	height: 100px;
 	background-color: #485460;
-	/*border-bottom: 1px solid #ff793f;*/
-}
-.space-from-nav {
-	width: 100%;
-	padding: 50px 0 50px 0;
 }
 .nav {
 	display: flex;
@@ -52,7 +47,6 @@ p {
 	height: 100px;
 	margin-left: 2%;
 }
-/*	FIX FOR OUR SOLUTION */
 .nav-link {
 	font-size: 35px;
 	padding: 14px 13px 14px 13px;
@@ -87,18 +81,23 @@ p {
 }
 .nav-dropdown {
 	display: none;
-	width: 560%;
+	width: 100vw;
 }
 .nav-dropdown a {
 	display: block;
 	color: black;
 	text-decoration: none;
 }
-.dropdown:focus .nav-dropdown {
+/*FIKS :HOVER UTEN AT FOCUS GLITCHER PÅ TOUCH?*/
+.dropdown:focus .nav-dropdown,
+.dropdown:focus-within .nav-dropdown/*,
+.dropdown:hover .nav-dropdown*/ {
 	display: block;
 	pointer-events: auto;
 }
-.dropdown:focus .dropdown-icon {
+.dropdown:focus .dropdown-icon,
+.dropdown:focus-within .dropdown-icon/*,
+.dropdown:hover .dropdown-icon*/ {
 	fill: #ff793f;
 }
 .dropdown:focus {
@@ -133,13 +132,16 @@ p {
 .top {
 }
 
-/*	BOTTOM
+/*	FOOTER
 ----------------------------------*/
-.bottom {
+.footer {
 }
 
 /*	HOME
 ----------------------------------*/
+main.page {
+	padding-top: 100px;
+}
 .content {
 	margin-top: 37px;
 	margin-bottom: 37px;
