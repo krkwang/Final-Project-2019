@@ -52,12 +52,12 @@ p {
 .nav-link {
 	font-size: 35px;
 	padding: 14px 13px 14px 13px;
-	/*background-color: #ffda79;*/
-	background-image: linear-gradient(to bottom right, #ffda79, #ff793f);
+	background-color: #ffda79;
+	/*background-image: linear-gradient(to bottom right, #ffda79, #ff793f);*/
 }
 .nav-link:hover {
-	/*background-color: #ff793f;*/
-	background-image: linear-gradient(to top right, #ffda79, #ff793f);
+	background-color: #ff793f;
+	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
 	/*color: white; FOR LAV KONTRAST*/
 }
