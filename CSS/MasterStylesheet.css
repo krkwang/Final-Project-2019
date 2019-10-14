@@ -60,7 +60,10 @@ p {
 	background-color: #ff793f;
 	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
-	/*color: white; FOR LAV KONTRAST*/
+	color: #483230;
+}
+.nav-link:hover svg{
+	fill: #483230;
 }
 .nav-link-icon{
 	vertical-align: -2.5px;
