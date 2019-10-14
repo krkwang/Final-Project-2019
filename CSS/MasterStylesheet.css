@@ -82,8 +82,11 @@ p {
 	fill: #ffda79;
 }
 .nav-dropdown {
-	display: none;
+	display: block;
+	height: 0;
 	width: 560%;
+	overflow: hidden;
+	transition: height 0.5s;
 }
 .nav-dropdown a {
 	display: block;
@@ -92,8 +95,8 @@ p {
 }
 .dropdown:focus .nav-dropdown,
 .dropdown:focus-within .nav-dropdown {
-	display: block;
 	pointer-events: auto;
+	height: 340px;
 }
 .dropdown:focus .dropdown-icon,
 .dropdown:focus-within .dropdown-icon {
