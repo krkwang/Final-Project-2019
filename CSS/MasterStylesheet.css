@@ -53,7 +53,7 @@ p {
 	font-size: 35px;
 	padding: 14px 13px 14px 13px;
 	background-color: #ffda79;
-	transition: color 0.5s, background 0.5s;
+	transition: color 0.2s, background 0.2s;
 	/*background-image: linear-gradient(to bottom right, #ffda79, #ff793f);*/
 }
 .nav-link:hover {
@@ -83,14 +83,14 @@ p {
 	width: 100px;
 	height: 100px;
 	fill: #ffda79;
-	transition: fill 0.25s;
+	transition: fill 0.2s;
 }
 .nav-dropdown {
 	display: block;
 	height: 0;
 	width: 100vw;
 	overflow: hidden;
-	transition: height 0.5s;
+	transition: height 0.2s;
 }
 .nav-dropdown a {
 	display: block;
