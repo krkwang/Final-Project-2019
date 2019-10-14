@@ -38,7 +38,7 @@ p {
 	width: 100%;
 	height: 100px;
 	background-color: #485460;
-	/*border-bottom: 1px solid #ff793f;*/
+	z-index: 1000;
 }
 .nav {
 	display: flex;
@@ -48,21 +48,23 @@ p {
 	height: 100px;
 	margin-left: 2%;
 }
-/*	FIX FOR OUR SOLUTION */
+/* GRADIENT LINKS, YES/NO? TOO COMPLICATED FOR OUR PURPOSE? */
 .nav-link {
 	font-size: 35px;
 	padding: 14px 13px 14px 13px;
 	background-color: #ffda79;
 	transition: color 0.5s, background 0.5s;
+	/*background-image: linear-gradient(to bottom right, #ffda79, #ff793f);*/
+}
+.nav-link:hover {
+	background-color: #ff793f;
+	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
+	font-style: oblique;
+	/*color: white; FOR LAV KONTRAST*/
 }
 .nav-air {
 	flex-basis: 25%;
 	height: 100px;
-}
-.nav-link:hover {
-	background-color: #ff793f;
-	font-style: oblique;
-	color: white;
 }
 .nav a {
 	color: black;
@@ -86,7 +88,7 @@ p {
 .nav-dropdown {
 	display: block;
 	height: 0;
-	width: 560%;
+	width: 100vw;
 	overflow: hidden;
 	transition: height 0.5s;
 }
@@ -95,13 +97,16 @@ p {
 	color: black;
 	text-decoration: none;
 }
+/*FIKS :HOVER UTEN AT FOCUS GLITCHER PÅ TOUCH?*/
 .dropdown:focus .nav-dropdown,
-.dropdown:focus-within .nav-dropdown {
+.dropdown:focus-within .nav-dropdown/*,
+.dropdown:hover .nav-dropdown*/ {
 	pointer-events: auto;
 	height: 340px;
 }
 .dropdown:focus .dropdown-icon,
-.dropdown:focus-within .dropdown-icon {
+.dropdown:focus-within .dropdown-icon/*,
+.dropdown:hover .dropdown-icon*/ {
 	fill: #ff793f;
 }
 .dropdown:focus {
@@ -136,9 +141,10 @@ p {
 .top {
 }
 
-/*	BOTTOM
+/*	FOOTER
 ----------------------------------*/
-.bottom {
+.footer {
+	text-align: center;
 }
 
 /*	HOME
