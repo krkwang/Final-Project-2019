@@ -62,6 +62,11 @@ p {
 	font-style: oblique;
 	/*color: white; FOR LAV KONTRAST*/
 }
+.nav-link-icon{
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
 .nav-air {
 	flex-basis: 25%;
 	height: 100px;
@@ -76,7 +81,7 @@ p {
 	/*padding: 30px 13px 30px 13px;*/
 }
 .dropdown {
-	width: 18%;
+	width: 16%;
 }
 .dropdown-icon {
 	display: none;
