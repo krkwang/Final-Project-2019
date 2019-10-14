@@ -53,6 +53,7 @@ p {
 	font-size: 35px;
 	padding: 14px 13px 14px 13px;
 	background-color: #ffda79;
+	transition: color 0.5s, background 0.5s;
 }
 .nav-air {
 	flex-basis: 25%;
@@ -80,6 +81,7 @@ p {
 	width: 100px;
 	height: 100px;
 	fill: #ffda79;
+	transition: fill 0.25s;
 }
 .nav-dropdown {
 	display: block;
