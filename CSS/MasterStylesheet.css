@@ -63,6 +63,9 @@ p {
 	font-style: oblique;
 	color: #f7f1e3;
 }
+.language-change:hover svg {
+	fill: #f7f1e3;
+}
 .language-change-centering {
 	display: inline-block;
 }
