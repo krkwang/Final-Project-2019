@@ -175,7 +175,11 @@ p {
 	}
 	.nav-link {
 		font-size: 35px;
-		padding: 14px 8px 14px 8px;
+	}
+}
+@media (min-width: 831px) {
+	.dropdown {
+		display: none;
 	}
 }
 
