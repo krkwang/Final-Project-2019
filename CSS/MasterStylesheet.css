@@ -57,11 +57,17 @@ p {
 	display: flex;
 	align-items: center;
 }
+.language-change .nav-link-icon {
+	transition: fill 0.2s;
+}
 .language-change:hover {
 	background-color: black;
 	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
 	color: #f7f1e3;
+}
+.language-change:hover .nav-link-icon {
+	fill: #f7f1e3;
 }
 .language-change-centering {
 	display: inline-block;
