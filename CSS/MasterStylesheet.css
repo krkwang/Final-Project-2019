@@ -76,16 +76,16 @@ p {
 	font-style: oblique;
 	color: #483230;
 }
-.nav-link:hover svg{
+.nav-link:hover svg {
 	fill: #483230;
 }
-.nav-link-icon{
+.nav-link-icon {
 	vertical-align: -2.5px;
 	width: 35px;
 	height: 35px;
 	margin-right: 5px;
 }
-.nav-link-icon-dropdown{
+.nav-link-icon-dropdown {
 	vertical-align: -2.5px;
 	width: 35px;
 	height: 35px;
@@ -153,10 +153,10 @@ p {
 	}
 }
 @media (max-width: 1210px) {
-	.nav-link-icon{
+	.nav-link-icon {
 		display: none;
 	}
-	.nav-link{
+	.nav-link {
 		font-size: 30px;
 		padding: 17px 2px 17px 2px;
 	}
@@ -173,7 +173,7 @@ p {
 	.dropdown-icon {
 		display: block;
 	}
-	.nav-link{
+	.nav-link {
 		font-size: 35px;
 		padding: 14px 8px 14px 8px;
 	}
