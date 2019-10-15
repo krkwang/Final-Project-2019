@@ -135,12 +135,19 @@ p {
 	color: black;
 	text-decoration: none;
 }
-.dropdown:focus .nav-dropdown,
+/*IF IT WORKS DONT TOUCH IT*/
+/*:focus og :focus-within MÅ være splittet for at Edge skal fungere*/
+.dropdown:focus .nav-dropdown {
+	pointer-events: auto;
+	height: 516px; /* Må oppdateres om størrelsen endres */
+}
 .dropdown:focus-within .nav-dropdown {
 	pointer-events: auto;
 	height: 516px; /* Må oppdateres om størrelsen endres */
 }
-.dropdown:focus .dropdown-icon,
+.dropdown:focus .dropdown-icon {
+	fill: #ff793f;
+}
 .dropdown:focus-within .dropdown-icon {
 	fill: #ff793f;
 }
