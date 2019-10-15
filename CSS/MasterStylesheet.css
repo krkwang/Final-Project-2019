@@ -61,6 +61,9 @@ p {
 	font-style: oblique;
 	color: #f7f1e3;
 }
+.language-change-centering{
+	display: inline;
+}
 .nav-link {
 	font-size: 30px;
 	padding: 17.5px 8px;
