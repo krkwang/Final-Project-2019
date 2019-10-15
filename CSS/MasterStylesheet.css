@@ -54,6 +54,8 @@ p {
 	font-size: 18px;
 	padding: 14px 8px;
 	background-color: #f7f1e3;
+	display: flex;
+	align-items: center;
 }
 .language-change:hover {
 	background-color: black;
@@ -61,8 +63,8 @@ p {
 	font-style: oblique;
 	color: #f7f1e3;
 }
-.language-change-centering{
-	display: inline;
+.language-change-centering {
+	display: inline-block;
 }
 .nav-link {
 	font-size: 30px;
