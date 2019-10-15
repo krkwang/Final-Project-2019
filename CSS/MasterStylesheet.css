@@ -53,8 +53,8 @@ p {
 .language-change {
 	text-align: center;
 	transition: background 0.2s, color 0.2s;
-	font-size: 17px;
-	padding: 14px 8px 14px 8px;
+	font-size: 18px;
+	padding: 14px 8px;
 	background-color: #f7f1e3;
 }
 .language-change:hover {
@@ -64,8 +64,8 @@ p {
 	color: #f7f1e3;
 }
 .nav-link {
-	font-size: 35px;
-	padding: 14px 8px 14px 8px;
+	font-size: 30px;
+	padding: 14px 8px;
 	background-color: #ffda79;
 	transition: color 0.2s, background 0.2s;
 	/*background-image: linear-gradient(to bottom right, #ffda79, #ff793f);*/
@@ -81,8 +81,8 @@ p {
 }
 .nav-link-icon {
 	vertical-align: -2.5px;
-	width: 35px;
-	height: 35px;
+	width: 27px;
+	height: 27px;
 	margin-right: 5px;
 }
 .nav-link-icon-dropdown {
@@ -157,13 +157,16 @@ p {
 		display: none;
 	}
 	.nav-link {
-		font-size: 30px;
-		padding: 17px 2px 17px 2px;
+		font-size: 24px;
+		padding: 21px 16px;
 	}
 }
 @media (max-width: 1024px) {
 	.nav-air {
 		flex-basis: 0%;
+	}
+	.nav-link {
+		padding: 21px 8px;
 	}
 }
 @media (max-width: 830px) {
@@ -175,6 +178,7 @@ p {
 	}
 	.nav-link {
 		font-size: 35px;
+		padding: 14px 8px;
 	}
 }
 @media (min-width: 831px) {
