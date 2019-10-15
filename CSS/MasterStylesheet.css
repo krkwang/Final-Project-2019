@@ -50,16 +50,18 @@ p {
 	margin-right: 2%;
 }
 /* GRADIENT LINKS, YES/NO? TOO COMPLICATED FOR OUR PURPOSE? */
-.language-change{
+.language-change {
+	text-align: center;
+	transition: background 0.2s, color 0.2s;
 	font-size: 17px;
 	padding: 14px 8px 14px 8px;
 	background-color: #f7f1e3;
 }
-.language-change:hover{
+.language-change:hover {
 	background-color: black;
 	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
-	color: white;
+	color: #f7f1e3;
 }
 .nav-link {
 	font-size: 35px;
