@@ -49,7 +49,7 @@ p {
 }
 /* GRADIENT LINKS, YES/NO? TOO COMPLICATED FOR OUR PURPOSE? */
 .language-change {
-	text-align: center;
+	/*text-align: center;*/
 	transition: background 0.2s, color 0.2s;
 	font-size: 18px;
 	padding: 14px 8px;
