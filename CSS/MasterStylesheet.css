@@ -140,6 +140,8 @@ p {
 .dropdown:focus .nav-dropdown {
 	pointer-events: auto;
 	height: 516px; /* Må oppdateres om størrelsen endres */
+	max-height: calc(100vh - 100px);
+	overflow-y: scroll;
 }
 .dropdown:focus-within .nav-dropdown {
 	pointer-events: auto;
