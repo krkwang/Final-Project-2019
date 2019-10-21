@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: sans-serif, times;
+	font-family: sans-serif;
 }
 body {
 	overflow-y: scroll;
@@ -60,13 +60,18 @@ p {
 .language-change .nav-link-icon {
 	transition: fill 0.2s;
 }
-.language-change:hover {
+.nav-link.language-change-dropdown {
+	background-color: #f7f1e3;
+}
+.language-change:hover,
+.nav-link.language-change-dropdown:hover {
 	background-color: black;
 	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
 	color: #f7f1e3;
 }
-.language-change:hover .nav-link-icon {
+.language-change:hover .nav-link-icon,
+.language-change-dropdown:hover .nav-link-icon-dropdown {
 	fill: #f7f1e3;
 }
 .language-change-centering {
@@ -140,6 +145,8 @@ p {
 .dropdown:focus .nav-dropdown {
 	pointer-events: auto;
 	height: 516px; /* Må oppdateres om størrelsen endres */
+	max-height: calc(100vh - 100px);
+	overflow-y: scroll;
 }
 .dropdown:focus-within .nav-dropdown {
 	pointer-events: auto;
@@ -219,6 +226,18 @@ p {
 	color: #ffda79;
 }
 
+/*	GENERAL
+----------------------------------*/
+
+.cover-image {
+	background-size: cover;
+	background-position: center;
+	padding-top: 10em;
+	height: 25em;
+	text-align: center;
+	color: white;
+}
+
 /*	HOME
 ----------------------------------*/
 main.page {
@@ -234,6 +253,17 @@ main.page {
 .content h1,
 p {
 	padding-top: 35px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.content h2{
+    padding-top: 25px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.content h3{
+    padding-top: 25px;
 	padding-left: 2%;
 	padding-right: 2%;
 }
@@ -257,9 +287,14 @@ p {
 /*	PROBLEM
 ----------------------------------*/
 
-/*	OUR SOLUTION
+/*	SOLUTION
 ----------------------------------*/
 
+/*  PROTOTYPE
+----------------------------------*/
+.prototype-header {
+	background-image: url("../Pictures/Dummy1920x1080.png");
+}
 /*	ISSUES
 ----------------------------------*/
 
