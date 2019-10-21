@@ -251,6 +251,7 @@ main.page {
 	margin-right: 2%;
 	background-color: #f7f1e3;
 }
+
 .content h1, h2, h3, p {
 	padding-top: 35px;
 	padding-left: 2%;
@@ -295,6 +296,9 @@ main.page {
 
 /*	ISSUES
 ----------------------------------*/
+.content .sol{
+    padding-top: 10px;
+}
 
 /*	SOURCES
 ----------------------------------*/
