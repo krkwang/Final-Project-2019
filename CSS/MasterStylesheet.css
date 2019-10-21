@@ -240,7 +240,7 @@ p {
 
 /*	HOME CONTENT (Henk) */
 
-.HomeImage1{
+.homeImage1{
 	background-image: url("../Pictures/Dummy2000x1244.jpg");
 	background-size: cover;
 	background-position: center;
@@ -248,6 +248,10 @@ p {
 	height: 25em;
 	text-align: center;
 	color: white;
+}
+.sourceRef{
+	text-decoration: none;
+	color: inherit;
 }
 
 /*	PROBLEM
