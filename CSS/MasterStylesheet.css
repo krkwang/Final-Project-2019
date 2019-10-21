@@ -54,7 +54,7 @@ p {
 	transition: background 0.2s, color 0.2s;
 	font-size: 18px;
 	padding: 14px 8px;
-	background-color: #f7f1e3;
+	background-color: #d9ebff;
 	display: flex;
 	align-items: center;
 }
@@ -62,18 +62,18 @@ p {
 	transition: fill 0.2s;
 }
 .nav-link.language-change-dropdown {
-	background-color: #f7f1e3;
+	background-color: #d9ebff;
 }
 .language-change:hover,
 .nav-link.language-change-dropdown:hover {
-	background-color: black;
+	background-color: #2f3640;
 	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
-	color: #f7f1e3;
+	color: white;
 }
 .language-change:hover .nav-link-icon,
 .language-change-dropdown:hover .nav-link-icon-dropdown {
-	fill: #f7f1e3;
+	fill: white;
 }
 .language-change-centering {
 	display: inline-block;
@@ -81,12 +81,12 @@ p {
 .nav-link {
 	font-size: 30px;
 	padding: 17.5px 8px;
-	background-color: #00a8ff;
+	background-color: #487eb0;
 	transition: color 0.2s, background 0.2s;
 	/*ackground-image: linear-gradient(to bottom, #ffda79 79%, #ff793f 81%);*/
 }
 .nav-link:hover {
-	background-color: #f7f1e3;
+	background-color: #22a6b3;
 	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
 	color: #2f3640;
@@ -117,7 +117,7 @@ p {
 	text-decoration: none;
 }
 .active {
-	background-color: #f7f1e3;
+	background-color: #22a6b3;
 }
 .dropdown {
 	width: 16%;
@@ -126,7 +126,7 @@ p {
 	display: none;
 	width: 100px;
 	height: 100px;
-	fill: #00a8ff;
+	fill: #487eb0;
 	transition: fill 0.2s;
 }
 .nav-dropdown {
@@ -154,10 +154,10 @@ p {
 	height: 516px; /* Må oppdateres om størrelsen endres */
 }
 .dropdown:focus .dropdown-icon {
-	fill: #f7f1e3;
+	fill: #22a6b3;
 }
 .dropdown:focus-within .dropdown-icon {
-	fill: #f7f1e3;
+	fill: #22a6b3;
 }
 .dropdown:focus {
 	pointer-events: none;
@@ -254,7 +254,7 @@ main.page {
 	margin-bottom: 37px;
 	margin-left: 2%;
 	margin-right: 2%;
-	background-color: #e4f1ff;
+	background-color: #d9ebff;
 }
 
 .content h1, h2, h3, p {
