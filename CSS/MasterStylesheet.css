@@ -212,10 +212,11 @@ p {
 	justify-content: space-between;
 }
 .footer-flex-element {
+	min-width: 100px;
+	width: 25%;
 
 }
 .footer-flex-element p {
-	min-width: 100px;
 	color: #ffda79;
 }
 
