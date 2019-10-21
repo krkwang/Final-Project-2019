@@ -8,7 +8,7 @@
 }
 body {
 	overflow-y: scroll;
-	background-color: #2f3640;
+	background-color: #f5f6fa;
 }
 a {
 }
@@ -32,7 +32,7 @@ p {
 	top: 0;
 	width: 100%;
 	height: 100px;
-	background-color: #2f3640;
+	background-color: #f5f6fa;
 	z-index: 1000;
 }
 
