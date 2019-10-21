@@ -225,7 +225,7 @@ p {
 
 }
 .footer-flex-element p {
-	color: #00a8ff;
+	color: black;
 }
 
 /*	GENERAL
@@ -250,7 +250,7 @@ main.page {
 	margin-bottom: 37px;
 	margin-left: 2%;
 	margin-right: 2%;
-	background-color: #f7f1e3;
+	background-color: #e4f1ff;
 }
 
 .content h1, h2, h3, p {
