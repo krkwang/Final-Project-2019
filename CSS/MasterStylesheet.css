@@ -238,6 +238,18 @@ p {
 	padding-right: 2%;
 }
 
+/*	HOME CONTENT (Henk) */
+
+.HomeImage1{
+	background-image: url("../Pictures/Dummy2000x1244.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 10em;
+	height: 25em;
+	text-align: center;
+	color: white;
+}
+
 /*	PROBLEM
 ----------------------------------*/
 
