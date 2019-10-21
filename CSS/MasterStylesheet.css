@@ -252,7 +252,7 @@ main.page {
 }
 .content h1,
 p {
-	padding-top: 35px;
+	/*padding-top: 35px;*/
 	padding-left: 2%;
 	padding-right: 2%;
 }
