@@ -221,6 +221,7 @@ p {
 .footer-flex-element {
 	min-width: 100px;
 	width: 25%;
+	height: 200px;
 
 }
 .footer-flex-element p {
@@ -275,7 +276,7 @@ main.page {
 	padding-top: 6em;
 	height: 20em;
 	text-align: center;
-	color: white;
+	color: #f7f1e3;
 }
 .sourceRef{
 	text-decoration: none;
