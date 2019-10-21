@@ -221,6 +221,18 @@ p {
 	color: #ffda79;
 }
 
+/*	GENERAL
+----------------------------------*/
+
+.cover-image {
+	background-size: cover;
+	background-position: center;
+	padding-top: 10em;
+	height: 25em;
+	text-align: center;
+	color: white;
+}
+
 /*	HOME
 ----------------------------------*/
 main.page {
@@ -255,9 +267,14 @@ p {
 /*	PROBLEM
 ----------------------------------*/
 
-/*	OUR SOLUTION
+/*	SOLUTION
 ----------------------------------*/
 
+/*  PROTOTYPE
+----------------------------------*/
+.prototype-header {
+	background-image: url("../Pictures/Dummy1920x1080.png");
+}
 /*	ISSUES
 ----------------------------------*/
 
