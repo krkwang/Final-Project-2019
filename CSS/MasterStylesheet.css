@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: sans-serif, times;
 }
 body {
 	overflow-y: scroll;
@@ -60,18 +60,13 @@ p {
 .language-change .nav-link-icon {
 	transition: fill 0.2s;
 }
-.nav-link.language-change-dropdown {
-	background-color: #f7f1e3;
-}
-.language-change:hover,
-.nav-link.language-change-dropdown:hover {
+.language-change:hover {
 	background-color: black;
 	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
 	color: #f7f1e3;
 }
-.language-change:hover .nav-link-icon,
-.language-change-dropdown:hover .nav-link-icon-dropdown {
+.language-change:hover .nav-link-icon {
 	fill: #f7f1e3;
 }
 .language-change-centering {
@@ -145,8 +140,6 @@ p {
 .dropdown:focus .nav-dropdown {
 	pointer-events: auto;
 	height: 516px; /* Må oppdateres om størrelsen endres */
-	max-height: calc(100vh - 100px);
-	overflow-y: scroll;
 }
 .dropdown:focus-within .nav-dropdown {
 	pointer-events: auto;
@@ -226,18 +219,6 @@ p {
 	color: #ffda79;
 }
 
-/*	GENERAL
-----------------------------------*/
-
-.cover-image {
-	background-size: cover;
-	background-position: center;
-	padding-top: 10em;
-	height: 25em;
-	text-align: center;
-	color: white;
-}
-
 /*	HOME
 ----------------------------------*/
 main.page {
@@ -250,24 +231,11 @@ main.page {
 	margin-right: 2%;
 	background-color: #f7f1e3;
 }
-.content h1,
-p {
+.content h1, h2, h3, p {
 	padding-top: 35px;
 	padding-left: 2%;
 	padding-right: 2%;
 }
-.content h2{
-    padding-top: 25px;
-	padding-left: 2%;
-	padding-right: 2%;
-}
-
-.content h3{
-    padding-top: 25px;
-	padding-left: 2%;
-	padding-right: 2%;
-}
-
 /*	HOME CONTENT (Henk) */
 
 .homeImage1{
@@ -279,22 +247,26 @@ p {
 	text-align: center;
 	color: white;
 }
+.homeImage2{
+	background-image: url("../Pictures/Dummy969x931.png");
+	background-size: cover;
+	background-position: center;
+	padding-top: 6em;
+	height: 20em;
+	text-align: center;
+	color: white;
+}
 .sourceRef{
 	text-decoration: none;
-	color: inherit;
+	color: blue;
 }
 
 /*	PROBLEM
 ----------------------------------*/
 
-/*	SOLUTION
+/*	OUR SOLUTION
 ----------------------------------*/
 
-/*  PROTOTYPE
-----------------------------------*/
-.prototype-header {
-	background-image: url("../Pictures/Dummy1920x1080.png");
-}
 /*	ISSUES
 ----------------------------------*/
 
