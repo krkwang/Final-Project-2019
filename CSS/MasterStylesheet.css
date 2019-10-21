@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: sans-serif, times;
+	font-family: sans-serif;
 }
 body {
 	overflow-y: scroll;
@@ -60,13 +60,18 @@ p {
 .language-change .nav-link-icon {
 	transition: fill 0.2s;
 }
-.language-change:hover {
+.nav-link.language-change-dropdown {
+	background-color: #f7f1e3;
+}
+.language-change:hover,
+.nav-link.language-change-dropdown:hover {
 	background-color: black;
 	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
 	color: #f7f1e3;
 }
-.language-change:hover .nav-link-icon {
+.language-change:hover .nav-link-icon,
+.language-change-dropdown:hover .nav-link-icon-dropdown {
 	fill: #f7f1e3;
 }
 .language-change-centering {
