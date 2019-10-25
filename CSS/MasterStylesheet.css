@@ -81,7 +81,7 @@ p {
 .nav-link {
 	font-size: 30px;
 	padding: 17.5px 8px;
-	background-color: #487eb0;
+	background-color: #73b5ff;
 	transition: color 0.2s, background 0.2s;
 	/*ackground-image: linear-gradient(to bottom, #ffda79 79%, #ff793f 81%);*/
 }
