@@ -24,6 +24,9 @@ p {
 	line-height: 1.25;
 	padding: 20px 0 20px 0;
 }
+li{
+	font-size: 20px;
+}
 
 /*	TOP
 ----------------------------------*/
@@ -297,6 +300,48 @@ main.page {
 ----------------------------------*/
 .prototype-header {
 	background-image: url("../Pictures/blender_background_test.png");
+}
+.prototype-content1{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 37px;
+	margin-bottom: 37px;
+	margin-left: 2%;
+	margin-right: 2%;
+	justify-content: space-between;
+}
+.prototype-content1 img{
+	width: 100%;
+	padding: 0 2% 1.5% 2%;
+}
+.prototype-content1 li ul{
+	display: inline;
+}
+.prototype-content1 li{
+	padding-top: 35px;
+	padding-bottom: 35px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.prototype-list-image{
+	background-color: #d9ebff;
+	width: 550px;
+}
+.prototype-content2{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 37px;
+	margin-bottom: 37px;
+	margin-left: 2%;
+	margin-right: 2%;
+	justify-content: space-between;
+}
+.prototype-content2 img{
+	width: 550px;
+	background-color: #d9ebff;
+}
+.prototype-content2 p{
+	width: 50%;
 }
 
 /*	ISSUES
