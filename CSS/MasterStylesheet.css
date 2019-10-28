@@ -42,12 +42,24 @@ li{
 
 /*	NAV
 ----------------------------------*/
+.nav-wrapper{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.logo{
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+}
 .nav {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
 	height: 100px;
+	width: 96%;
 	margin-left: 2%;
 	margin-right: 2%;
 }
@@ -123,6 +135,7 @@ li{
 	background-color: #22a6b3;
 }
 .dropdown {
+	position: relative;
 	width: 16%;
 }
 .dropdown-icon {
@@ -133,9 +146,11 @@ li{
 	transition: fill 0.2s;
 }
 .nav-dropdown {
+	position: absolute;
+	left: -42vw;
 	display: block;
 	height: 0;
-	width: 100vw;
+	width: 104vw;
 	overflow: hidden;
 	transition: height 0.2s;
 }
@@ -193,7 +208,11 @@ li{
 	}
 }
 @media (max-width: 830px) {
-	.nav {
+	.nav{
+		width: 100px;
+		justify-content: flex-end;
+	}
+	.nav .nav-link {
 		display: none;
 	}
 	.dropdown-icon {
@@ -205,6 +224,9 @@ li{
 		display: flex;
 		align-items: center;
 	}
+	/*.nav-link-icon {
+		display: block;
+	}*/
 }
 @media (min-width: 831px) {
 	.dropdown {
@@ -221,10 +243,11 @@ li{
 	margin-right: 1%;
 	text-align: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .footer-flex-element {
 	min-width: 100px;
-	width: 25%;
+	/*width: 25%;*/
 	height: 200px;
 
 }
@@ -340,7 +363,6 @@ main.page {
 .prototype-content2 img{
 	width: 50%;
 	background-color: #d9ebff;
-	margin: 10px;
 }
 .prototype-content2 p{
 	width: 45%;
