@@ -312,7 +312,6 @@ main.page {
 }
 .prototype-content1 img{
 	width: 100%;
-	padding: 0 2% 1.5% 2%;
 }
 .prototype-content1 li ul{
 	display: inline;
@@ -322,10 +321,12 @@ main.page {
 	padding-bottom: 35px;
 	margin-left: 2%;
 	margin-right: 2%;
+	list-style-type: square;
 }
 .prototype-list-image{
 	background-color: #d9ebff;
-	width: 550px;
+	/*width: 550px;*/
+	width: 33%;
 }
 .prototype-content2{
 	display: flex;
@@ -337,13 +338,19 @@ main.page {
 	justify-content: space-between;
 }
 .prototype-content2 img{
-	width: 550px;
+	width: 50%;
 	background-color: #d9ebff;
+	margin: 10px;
 }
 .prototype-content2 p{
-	width: 50%;
+	width: 45%;
 }
 
+@media (max-width: 1024px){
+	.prototype-list-image{
+		width: 100%;
+	}
+}
 /*	ISSUES
 ----------------------------------*/
 .content .sol{
