@@ -26,6 +26,7 @@ p {
 }
 li{
 	font-size: 20px;
+	list-style-image: url(../Pictures/circle.svg);
 }
 
 /*	TOP
