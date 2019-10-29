@@ -156,8 +156,8 @@ li{
 	display: block;
 	position: absolute;
 	height: 0;
-	left: -100px;
-	width: 100vw;
+	/*left: -45vw;
+	width: 108vw;*/
 	overflow: hidden;
 	transition: height 0.2s;
 }
