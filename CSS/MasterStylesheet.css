@@ -359,7 +359,7 @@ main.page {
 }
 .prototype-content1 li{
 	padding-top: 37px;
-	padding-bottom: 37px;
+	/*padding-bottom: 37px;*/
 	margin-left: 2%;
 	margin-right: 2%;
 	list-style-type: square;
@@ -367,7 +367,7 @@ main.page {
 .prototype-list-image{
 	background-color: #c5d4e2;
 	/*width: 550px;*/
-	width: 33%;
+	width: 32.5%;
 }
 .prototype-content2{
 	display: flex;
