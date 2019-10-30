@@ -252,21 +252,26 @@ li{
 ----------------------------------*/
 .footer {
 	display: flex;
-	width: 98%;
-	margin-left: 1%;
-	margin-right: 1%;
-	text-align: center;
+	margin-left: 2%;
+	margin-right: 2%;
 	justify-content: space-between;
+	text-align: center;
+	align-items: flex-end;
 }
 .footer-flex-element {
 	min-width: 100px;
 	width: 25%;
-	height: 200px;
-
+	/*height: 200px;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .footer-flex-element p {
 	color: black;
-	font-size: 14px;
+	padding: 5px;
+	font-size: 15px;
+}
+.footer-flex-element span{
+	font-weight: bold;
 }
 
 /*	GENERAL
@@ -378,7 +383,7 @@ main.page {
 	/*margin: 10px;*/
 }
 .prototype-content2 div{
-	width: 45%;
+	width: 48%;
 }
 .prototype-content2 p{
 	width: 100%;
