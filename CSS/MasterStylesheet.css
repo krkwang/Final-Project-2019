@@ -379,10 +379,14 @@ main.page {
 	margin-right: 2%;
 	justify-content: space-between;
 }
-.prototype-content2 img{
+.prototype-content2-picture-container{
+	display: flex;
 	width: 50%;
 	background-color: #c5d4e2;
-	/*margin: 10px;*/
+	align-items: center;
+}
+.prototype-content2-picture-container img{
+	width: 100%;
 }
 .prototype-content2 div{
 	width: 48%;
@@ -399,7 +403,7 @@ main.page {
 	.prototype-content1{
 		margin-bottom: 0px;
 	}
-	.prototype-content2 img{
+	.prototype-content2-picture-container{
 		width: 100%;
 		margin-top: 37px;
 	}
