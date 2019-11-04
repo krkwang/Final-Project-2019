@@ -66,9 +66,9 @@ li{
 .language-change {
 	/*text-align: center;*/
 	transition: background 0.2s, color 0.2s;
-	font-size: 18px;
-	padding: 14px 8px;
-	background-color: #c5d4e2;
+	font-size: 24px;
+	padding: 21px 8px;
+	background-color: #3b6fa9;
 	display: flex;
 	align-items: center;
 }
@@ -76,17 +76,17 @@ li{
 	fill: black;
 }
 .language-change:hover div{
-	color: white;
+	color: #2f3640;
 }
 .language-change .nav-link-icon {
 	transition: fill 0.2s;
 }
 .nav-link.language-change-dropdown {
-	background-color: #d9ebff;
+	background-color: #17364b;
 }
 .language-change:hover,
 .nav-link.language-change-dropdown:hover {
-	background-color: #2f3640;
+	background-color: #17364b;
 	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
 	color: white;
@@ -243,9 +243,9 @@ li{
 	.dropdown {
 		display: none;
 	}
-	.language-container{
+	/*.language-container{
 		display: none;
-	}
+	}*/
 }
 
 /*	FOOTER
