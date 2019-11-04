@@ -300,11 +300,13 @@ main.page {
 	margin-left: 2%;
 	margin-right: 2%;
 	background-color: #c5d4e2;
+	font-weight: lighter;
 }
 .content h1, h2, h3, p {
 	padding-top: 20px;
 	padding-left: 2%;
 	padding-right: 2%;
+	line-height: 2;
 }
 /*	HOME CONTENT (Henk) */
 
