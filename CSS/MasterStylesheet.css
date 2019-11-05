@@ -257,6 +257,7 @@ li{
 	justify-content: space-between;
 	text-align: center;
 	align-items: flex-end;
+	flex-flow: wrap;
 }
 .footer-flex-element {
 	min-width: 100px;
@@ -264,6 +265,7 @@ li{
 	/*height: 200px;*/
 	margin-top: 20px;
 	margin-bottom: 20px;
+	order: 1;
 }
 .footer-flex-element p {
 	color: black;
@@ -273,7 +275,18 @@ li{
 .footer-flex-element span{
 	font-weight: bold;
 }
+.footer-order{
+	order: 1;
+}
 
+@media (max-width: 837px){
+	.footer-flex-element{
+		width: 100%;
+	}
+	.footer-order{
+		order: 2;
+	}
+}
 /*	GENERAL
 ----------------------------------*/
 
