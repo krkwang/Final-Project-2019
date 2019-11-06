@@ -67,7 +67,7 @@ li{
 	/*text-align: center;*/
 	transition: background 0.2s, color 0.2s;
 	font-size: 24px;
-	padding: 21px 10px;
+	padding: 21px 8px;
 	background-color: #3b6fa9;
 	display: flex;
 	align-items: center;
@@ -383,6 +383,11 @@ main.page {
 	background-color: #c5d4e2;
 	/*width: 550px;*/
 	width: 32.5%;
+	height: auto;
+}
+.prototype-list-image p{
+	margin-left: 2%;
+	margin-right: 2%;
 }
 .prototype-content2{
 	display: flex;
@@ -402,10 +407,10 @@ main.page {
 	width: 100%;
 }
 .prototype-content2 div{
-	width: 48%;
+	width: 50%;
 }
 .prototype-content2 p{
-	width: 100%;
+	width: 90%;
 }
 
 @media (max-width: 1024px){
@@ -421,6 +426,9 @@ main.page {
 		margin-top: 37px;
 	}
 	.prototype-content2 div{
+		width: 100%;
+	}
+	.prototype-content2 p{
 		width: 100%;
 	}
 }
