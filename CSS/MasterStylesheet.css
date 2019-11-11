@@ -263,11 +263,11 @@ li{
 	text-align: center;
 	align-items: flex-end;
 	flex-flow: wrap;
+	height: 200px;
 }
 .footer-flex-element {
 	min-width: 100px;
-	width: 25%;
-	/*height: 200px;*/
+	width: 30%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	order: 1;
@@ -285,8 +285,12 @@ li{
 }
 
 @media (max-width: 902px){
+	.footer{
+		height: auto;
+	}
 	.footer-flex-element{
-		width: 100%;
+		width: 80%;
+		margin-left: 10%;
 	}
 	.footer-order{
 		order: 2;
