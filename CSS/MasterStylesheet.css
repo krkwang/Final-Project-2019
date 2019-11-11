@@ -167,7 +167,7 @@ li{
 	display: block;
 	position: absolute;
 	height: 0;
-	left: -45vw;
+	left: -43vw;
 	width: 110vw;
 	overflow: hidden;
 	transition: height 0.2s;
@@ -215,6 +215,11 @@ li{
 	.nav-link {
 		font-size: 24px;
 		padding: 21px 11px;
+	}
+}
+@media (max-width: 600px){
+	.nav-dropdown{
+		left: -41vw;
 	}
 }
 /*@media (max-width: 1024px) {
