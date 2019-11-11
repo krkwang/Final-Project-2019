@@ -334,6 +334,27 @@ main.page {
 /*	PROBLEM
 ----------------------------------*/
 
+.problemImage{
+	background-image: url("../Pictures/scarcity.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 10em;
+	height: 500px;
+}
+
+.link {
+    color: black;
+}
+
+.link:visited {
+    color: mediumpurple;
+}
+
+.link:hover {
+    color: blue; 
+}
+
+
 /*	SOLUTION
 ----------------------------------*/
 
