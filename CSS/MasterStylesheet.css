@@ -264,23 +264,26 @@ li{
 	align-items: flex-end;
 	flex-flow: wrap;
 	height: 200px;
+	background-color: #3b6fa9;
+	color: white;
 }
 .footer-flex-element {
 	min-width: 100px;
-	width: 30%;
-	margin-top: 20px;
+	width: 35%;
+	/*margin-top: 20px;*/
 	margin-bottom: 20px;
 	order: 1;
 }
 .footer-flex-element p {
-	color: black;
-	padding: 5px;
-	font-size: 15px;
+	color: white;
+	padding: 5px 5px 5px 10px;
+	font-size: 18px;
 }
 .footer-flex-element span{
 	font-weight: bold;
 }
 .footer-order{
+	width: 20%;
 	order: 1;
 }
 
@@ -293,6 +296,7 @@ li{
 		margin-left: 10%;
 	}
 	.footer-order{
+		width: 80%;
 		order: 2;
 	}
 }
