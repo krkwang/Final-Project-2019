@@ -424,7 +424,8 @@ main.page {
 .prototype-content2{
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 37px;
+	margin-top: 111px;
+	margin-bottom: 111px;
 	margin-left: 2%;
 	margin-right: 2%;
 	justify-content: space-between;
