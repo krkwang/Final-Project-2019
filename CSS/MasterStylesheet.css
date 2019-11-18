@@ -383,7 +383,18 @@ main.page {
 
 /*	SOLUTION
 ----------------------------------*/
-
+.flexsolution {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+.flexsolution img {
+	height: auto;
+	width: 25%;
+}
+.flexsolution p{
+	width: 70%; 	
+}
 /*  PROTOTYPE
 ----------------------------------*/
 .prototype-header {
