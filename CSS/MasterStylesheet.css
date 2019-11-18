@@ -393,7 +393,7 @@ main.page {
 	width: 25%;
 }
 .flexsolution p{
-	width: 70%; 	
+	width: 70%;
 }
 /*  PROTOTYPE
 ----------------------------------*/
@@ -411,6 +411,7 @@ main.page {
 }
 .prototype-content1 img{
 	width: 100%;
+	height: 60%;
 }
 .prototype-content1 li ul{
 	display: inline;
@@ -464,6 +465,9 @@ main.page {
 	}
 	.prototype-content1{
 		margin-bottom: 0px;
+	}
+	.prototype-content1 img{
+		height: auto;
 	}
 	.prototype-content2-picture-container{
 		width: 100%;
