@@ -21,8 +21,9 @@ h3 {
 }
 p {
 	font-size: 20px;
-	line-height: 1.25;
+	line-height: 2;
 	padding: 20px 0 20px 0;
+	font-weight: lighter;
 }
 li{
 	font-size: 20px;
@@ -64,7 +65,6 @@ li{
 }
 /* GRADIENT LINKS, YES/NO? TOO COMPLICATED FOR OUR PURPOSE? */
 .language-change {
-	/*text-align: center;*/
 	transition: background 0.2s, color 0.2s;
 	font-size: 24px;
 	padding: 21px 8px;
@@ -87,7 +87,6 @@ li{
 .language-change:hover,
 .nav-link.language-change-dropdown:hover {
 	background-color: #17364b;
-	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
 	color: white;
 }
@@ -102,7 +101,6 @@ li{
 .language-container{
 	display: block;
 	height: 100px;
-	/*width: 100px;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -114,11 +112,9 @@ li{
 	padding: 17.5px 8px;
 	background-color: #3b6fa9;
 	transition: color 0.2s, background 0.2s;
-	/*ackground-image: linear-gradient(to bottom, #ffda79 79%, #ff793f 81%);*/
 }
 .nav-link:hover {
 	background-color: #17364b;
-	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
 	color: white;
 }
@@ -177,8 +173,6 @@ li{
 	color: white;
 	text-decoration: none;
 }
-/*IF IT WORKS DONT TOUCH IT*/
-/*:focus og :focus-within MÅ være splittet for at Edge skal fungere*/
 .dropdown:focus .nav-dropdown {
 	pointer-events: auto;
 	height: 516px; /* Må oppdateres om størrelsen endres */
@@ -217,14 +211,6 @@ li{
 		padding: 21px 11px;
 	}
 }
-/*@media (max-width: 1024px) {
-	.nav-air {
-		flex-basis: 0%;
-	}
-	.nav-link {
-		padding: 21px 8px;
-	}
-}*/
 @media (max-width: 902px) {
 	.nav {
 		display: none;
@@ -243,9 +229,6 @@ li{
 	.dropdown {
 		display: none;
 	}
-	/*.language-container{
-		display: none;
-	}*/
 }
 @media (max-width: 600px){
 	.nav-dropdown{
@@ -270,7 +253,6 @@ li{
 .footer-flex-element {
 	min-width: 100px;
 	width: 35%;
-	/*margin-top: 20px;*/
 	margin-bottom: 20px;
 	order: 1;
 }
@@ -326,9 +308,8 @@ main.page {
 	margin-left: 2%;
 	margin-right: 2%;
 	background-color: #c5d4e2;
-	font-weight: lighter;
 }
-.content h1, h2, h3, p {
+.content h1, .content h2, .content h3, .content p {
 	padding-top: 20px;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -383,11 +364,22 @@ main.page {
 
 /*	SOLUTION
 ----------------------------------*/
-
+.flexsolution {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+.flexsolution img {
+	height: auto;
+	width: 25%;
+}
+.flexsolution p{
+	width: 70%;
+}
 /*  PROTOTYPE
 ----------------------------------*/
 .prototype-header {
-	background-image: url("../Pictures/blender_background_test.png");
+	background-image: url("../Pictures/filter_blender.png");
 }
 .prototype-content1{
 	display: flex;
@@ -406,14 +398,13 @@ main.page {
 }
 .prototype-content1 li{
 	padding-top: 37px;
-	/*padding-bottom: 37px;*/
+	padding-bottom: 10px;
 	margin-left: 2%;
 	margin-right: 2%;
 	list-style-type: square;
 }
 .prototype-list-image{
 	background-color: #c5d4e2;
-	/*width: 550px;*/
 	width: 32.5%;
 	height: auto;
 }
@@ -424,7 +415,6 @@ main.page {
 .prototype-content2{
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 111px;
 	margin-bottom: 111px;
 	margin-left: 2%;
 	margin-right: 2%;
@@ -436,7 +426,7 @@ main.page {
 	background-color: #c5d4e2;
 	align-items: center;
 }
-.prototype-content2-picture-container img{
+.prototype-content2-picture-container video{
 	width: 100%;
 }
 .prototype-content2 div{
@@ -444,6 +434,12 @@ main.page {
 }
 .prototype-content2 p{
 	width: 90%;
+}
+.content-white {
+	margin-top: 37px;
+	margin-bottom: 37px;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 @media (max-width: 1024px){
