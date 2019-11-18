@@ -308,6 +308,7 @@ main.page {
 	margin-left: 2%;
 	margin-right: 2%;
 	background-color: #c5d4e2;
+	word-wrap: break-word;
 }
 .content h1, .content h2, .content h3, .content p {
 	padding-top: 20px;
@@ -376,6 +377,8 @@ main.page {
 .flexsolution p{
 	width: 70%;
 }
+
+
 /*  PROTOTYPE
 ----------------------------------*/
 .prototype-header {
