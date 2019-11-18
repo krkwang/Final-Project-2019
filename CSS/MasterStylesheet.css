@@ -21,8 +21,9 @@ h3 {
 }
 p {
 	font-size: 20px;
-	line-height: 1.25;
+	line-height: 2;
 	padding: 20px 0 20px 0;
+	font-weight: lighter;
 }
 li{
 	font-size: 20px;
@@ -326,9 +327,8 @@ main.page {
 	margin-left: 2%;
 	margin-right: 2%;
 	background-color: #c5d4e2;
-	font-weight: lighter;
 }
-.content h1, h2, h3, p {
+.content h1, .content h2, .content h3, .content p {
 	padding-top: 20px;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -393,12 +393,12 @@ main.page {
 	width: 25%;
 }
 .flexsolution p{
-	width: 70%; 	
+	width: 70%;
 }
 /*  PROTOTYPE
 ----------------------------------*/
 .prototype-header {
-	background-image: url("../Pictures/blender_background_test.png");
+	background-image: url("../Pictures/filter_blender.png");
 }
 .prototype-content1{
 	display: flex;
@@ -411,6 +411,7 @@ main.page {
 }
 .prototype-content1 img{
 	width: 100%;
+	height: 70%;
 }
 .prototype-content1 li ul{
 	display: inline;
@@ -435,7 +436,7 @@ main.page {
 .prototype-content2{
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 111px;
+	/*margin-top: 111px;*/
 	margin-bottom: 111px;
 	margin-left: 2%;
 	margin-right: 2%;
@@ -456,6 +457,12 @@ main.page {
 .prototype-content2 p{
 	width: 90%;
 }
+.content-white {
+	margin-top: 37px;
+	margin-bottom: 37px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
 
 @media (max-width: 1024px){
 	.prototype-list-image{
@@ -464,6 +471,9 @@ main.page {
 	}
 	.prototype-content1{
 		margin-bottom: 0px;
+	}
+	.prototype-content1 img{
+		height: auto;
 	}
 	.prototype-content2-picture-container{
 		width: 100%;
