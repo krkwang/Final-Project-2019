@@ -363,6 +363,18 @@ main.page {
     color: blue;
 }
 
+.water-share{
+	display: inline-block;
+	width: 40%;
+	margin: 0 2% 2% 2%;
+}
+
+.water-per-capita{
+	display: inline-block;
+	width: 40%;	
+	margin-bottom: 2%;
+}
+
 /*	SOLUTION
 ----------------------------------*/
 .flexsolution {
