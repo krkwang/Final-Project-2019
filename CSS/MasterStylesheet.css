@@ -477,6 +477,11 @@ main.page {
 		width: 100%;
 		margin-bottom: 37px;
 	}
+	.prototype-list-image img{
+		width: 70%;
+		display: block;
+		margin: 0 auto;
+	}
 	.prototype-content1{
 		margin-bottom: 0px;
 	}
@@ -501,6 +506,20 @@ main.page {
 		width: 50%;
 	}
 }
+
+@media (max-width: 800px){
+	.prototype-list-image img{
+		width: 85%;
+		
+	}
+}
+
+@media (max-width: 600px){
+	.prototype-list-image img{
+		width: 100%;
+	}
+}
+
 /*	ISSUES
 ----------------------------------*/
 .content .sol{
