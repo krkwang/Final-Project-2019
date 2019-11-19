@@ -167,6 +167,7 @@ li{
 	width: 110vw;
 	overflow: hidden;
 	transition: height 0.2s;
+
 }
 .nav-dropdown a {
 	display: block;
@@ -175,13 +176,15 @@ li{
 }
 .dropdown:focus .nav-dropdown {
 	pointer-events: auto;
-	height: 516px; /* Må oppdateres om størrelsen endres */
+	height: 408px; /* Må oppdateres om størrelsen endres */
 	max-height: calc(100vh - 100px);
 	overflow-y: scroll;
+	box-shadow: 0px 2px 50px -35px black;
 }
 .dropdown:focus-within .nav-dropdown {
 	pointer-events: auto;
-	height: 516px; /* Må oppdateres om størrelsen endres */
+	height: 408px; /* Må oppdateres om størrelsen endres */
+	box-shadow: 0px 2px 50px -35px black;
 }
 .dropdown:focus .dropdown-icon {
 	fill: #17364b;
@@ -267,6 +270,15 @@ li{
 .footer-order{
 	width: 20%;
 	order: 1;
+}
+.footer-icon{
+	min-width: 35px;
+	width: 35px;
+	height: 35px;
+	margin-top: 5px;
+	margin-right: 30px;
+	margin-left: 30px;
+	fill: white;
 }
 
 @media (max-width: 902px){
