@@ -338,7 +338,7 @@ main.page {
 	height: 25em;
 	text-align: center;
 	color: #f7f1e3;
-	text-shadow: -2px 2px black;
+	text-shadow: -1.5px 1.5px black;
 }
 .homeImage2{
 	background-image: url("../Pictures/water2.jpg");
@@ -348,7 +348,7 @@ main.page {
 	height: 20em;
 	text-align: center;
 	color: #f7f1e3;
-	text-shadow: -2px 2px black;
+	text-shadow: -1.5px 1.5px black;
 }
 .sourceRef{
 	text-decoration: none;
@@ -443,7 +443,7 @@ main.page {
 ----------------------------------*/
 .prototype-header {
 	background-image: url("../Pictures/filter_blender.png");
-	text-shadow: -2px 2px black;
+	text-shadow: -1.5px 1.5px black;
 	color: #f7f1e3;
 }
 .prototype-content1{
@@ -548,7 +548,7 @@ main.page {
     #illustrasjon{
         margin-left: 2%;
     }
-    
+
     .water-share{
         display: block;
         margin: 0 0 2% 2%;
