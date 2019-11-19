@@ -416,6 +416,15 @@ main.page {
 	height: auto;
 	margin-left: 2%;
 }
+
+.content .eksempelbilde{
+    margin-left: 20%;
+    width: 60%;
+    padding-bottom: 2%;
+}
+#illustrasjon{
+    margin-left: 18%;
+}
 /*  PROTOTYPE
 ----------------------------------*/
 .prototype-header {
