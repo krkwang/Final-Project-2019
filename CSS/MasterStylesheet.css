@@ -326,6 +326,7 @@ main.page {
 	height: 25em;
 	text-align: center;
 	color: white;
+	text-shadow: -2px 2px black;
 }
 .homeImage2{
 	background-image: url("../Pictures/water2.jpg");
@@ -335,6 +336,7 @@ main.page {
 	height: 20em;
 	text-align: center;
 	color: #f7f1e3;
+	text-shadow: -2px 2px black;
 }
 .sourceRef{
 	text-decoration: none;
@@ -371,7 +373,7 @@ main.page {
 
 .water-per-capita{
 	display: inline-block;
-	width: 40%;	
+	width: 40%;
 	margin-bottom: 2%;
 }
 
@@ -406,6 +408,7 @@ main.page {
 ----------------------------------*/
 .prototype-header {
 	background-image: url("../Pictures/filter_blender.png");
+	text-shadow: -2px 2px black;
 }
 .prototype-content1{
 	display: flex;
