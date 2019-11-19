@@ -65,7 +65,6 @@ li{
 }
 /* GRADIENT LINKS, YES/NO? TOO COMPLICATED FOR OUR PURPOSE? */
 .language-change {
-	/*text-align: center;*/
 	transition: background 0.2s, color 0.2s;
 	font-size: 24px;
 	padding: 21px 8px;
@@ -88,7 +87,6 @@ li{
 .language-change:hover,
 .nav-link.language-change-dropdown:hover {
 	background-color: #17364b;
-	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
 	color: white;
 }
@@ -103,7 +101,6 @@ li{
 .language-container{
 	display: block;
 	height: 100px;
-	/*width: 100px;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -115,11 +112,9 @@ li{
 	padding: 17.5px 8px;
 	background-color: #3b6fa9;
 	transition: color 0.2s, background 0.2s;
-	/*ackground-image: linear-gradient(to bottom, #ffda79 79%, #ff793f 81%);*/
 }
 .nav-link:hover {
 	background-color: #17364b;
-	/*background-image: linear-gradient(to top right, #ffda79, #ff793f);*/
 	font-style: oblique;
 	color: white;
 }
@@ -178,8 +173,6 @@ li{
 	color: white;
 	text-decoration: none;
 }
-/*IF IT WORKS DONT TOUCH IT*/
-/*:focus og :focus-within MÅ være splittet for at Edge skal fungere*/
 .dropdown:focus .nav-dropdown {
 	pointer-events: auto;
 	height: 516px; /* Må oppdateres om størrelsen endres */
@@ -218,14 +211,6 @@ li{
 		padding: 21px 11px;
 	}
 }
-/*@media (max-width: 1024px) {
-	.nav-air {
-		flex-basis: 0%;
-	}
-	.nav-link {
-		padding: 21px 8px;
-	}
-}*/
 @media (max-width: 902px) {
 	.nav {
 		display: none;
@@ -244,9 +229,6 @@ li{
 	.dropdown {
 		display: none;
 	}
-	/*.language-container{
-		display: none;
-	}*/
 }
 @media (max-width: 600px){
 	.nav-dropdown{
@@ -271,7 +253,6 @@ li{
 .footer-flex-element {
 	min-width: 100px;
 	width: 35%;
-	/*margin-top: 20px;*/
 	margin-bottom: 20px;
 	order: 1;
 }
@@ -327,6 +308,7 @@ main.page {
 	margin-left: 2%;
 	margin-right: 2%;
 	background-color: #c5d4e2;
+	word-wrap: break-word;
 }
 .content h1, .content h2, .content h3, .content p {
 	padding-top: 20px;
@@ -381,19 +363,44 @@ main.page {
     color: blue;
 }
 
+.water-share{
+	display: inline-block;
+	width: 40%;
+	margin: 0 2% 2% 2%;
+}
+
+.water-per-capita{
+	display: inline-block;
+	width: 40%;	
+	margin-bottom: 2%;
+}
+
 /*	SOLUTION
 ----------------------------------*/
 .flexsolution {
 	display: flex;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
+/*
 .flexsolution img {
+	display: block;
 	height: auto;
 	width: 25%;
 }
+
+ */
 .flexsolution p{
+	display: inline-block;
 	width: 70%;
+}
+
+.flexsolution .solutionbilde{
+	display: block;
+	width: 20%;
+	height: auto;
+	margin-left: 2%;
 }
 /*  PROTOTYPE
 ----------------------------------*/
@@ -411,21 +418,19 @@ main.page {
 }
 .prototype-content1 img{
 	width: 100%;
-	height: 62.5%;
 }
 .prototype-content1 li ul{
 	display: inline;
 }
 .prototype-content1 li{
 	padding-top: 37px;
-	/*padding-bottom: 37px;*/
+	padding-bottom: 10px;
 	margin-left: 2%;
 	margin-right: 2%;
 	list-style-type: square;
 }
 .prototype-list-image{
 	background-color: #c5d4e2;
-	/*width: 550px;*/
 	width: 32.5%;
 	height: auto;
 }
@@ -436,7 +441,6 @@ main.page {
 .prototype-content2{
 	display: flex;
 	flex-wrap: wrap;
-	/*margin-top: 111px;*/
 	margin-bottom: 111px;
 	margin-left: 2%;
 	margin-right: 2%;
@@ -472,9 +476,6 @@ main.page {
 	.prototype-content1{
 		margin-bottom: 0px;
 	}
-	.prototype-content1 img{
-		height: auto;
-	}
 	.prototype-content2-picture-container{
 		width: 100%;
 		margin-top: 37px;
@@ -484,6 +485,16 @@ main.page {
 	}
 	.prototype-content2 p{
 		width: 100%;
+	}
+	.flexsolution {
+		display: block;
+	}
+	.flexsolution p{
+		width: 100%;
+	}
+	.flexsolution .solutionbilde{
+		margin-left: 25%;
+		width: 50%;
 	}
 }
 /*	ISSUES
