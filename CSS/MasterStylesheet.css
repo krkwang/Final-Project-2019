@@ -337,7 +337,7 @@ main.page {
 	padding-top: 10em;
 	height: 25em;
 	text-align: center;
-	color: white;
+	color: #f7f1e3;
 	text-shadow: -2px 2px black;
 }
 .homeImage2{
@@ -421,6 +421,7 @@ main.page {
 .prototype-header {
 	background-image: url("../Pictures/filter_blender.png");
 	text-shadow: -2px 2px black;
+	color: #f7f1e3;
 }
 .prototype-content1{
 	display: flex;
@@ -522,7 +523,7 @@ main.page {
 @media (max-width: 800px){
 	.prototype-list-image img{
 		width: 85%;
-		
+
 	}
 }
 
