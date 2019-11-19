@@ -422,13 +422,10 @@ main.page {
 .prototype-content1 img{
 	width: 100%;
 }
-.prototype-content1 li ul{
-	display: inline;
-}
-.prototype-content1 li{
+.prototype-content1 ul{
 	padding-top: 37px;
 	padding-bottom: 10px;
-	margin-left: 2%;
+	margin-left: calc(2% + 20px);
 	margin-right: 2%;
 	list-style-type: square;
 }
