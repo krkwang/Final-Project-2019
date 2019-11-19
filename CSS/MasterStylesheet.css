@@ -454,9 +454,13 @@ main.page {
 	width: 50%;
 	background-color: #c5d4e2;
 	align-items: center;
+	flex-wrap: wrap;
 }
 .prototype-content2-picture-container video{
 	width: 100%;
+}
+.prototype-content2-picture-container p{
+	padding: 20px;
 }
 .prototype-content2 div{
 	width: 50%;
