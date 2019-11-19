@@ -377,30 +377,16 @@ main.page {
     color: blue;
 }
 
-.water-share{
+#water-share{
 	display: inline-block;
 	width: 40%;
 	margin: 0 2% 2% 8%;
 }
 
-.water-per-capita{
+#water-per-capita{
 	display: inline-block;
 	width: 40%;
 	margin: 0 0 2% 2%;
-}
-
-.map-images .image img {
-	width: 100%;
-}
-
-
-@media (max-width: 1200px) {
-	.map-images {
-		flex-wrap: wrap;
-	}
-	.map-images .image {
-		margin: 2% auto;
-	}
 }
 
 /*	SOLUTION
@@ -548,13 +534,13 @@ main.page {
     #illustrasjon{
         margin-left: 2%;
     }
-
-    .water-share{
+    
+    #water-share{
         display: block;
         margin: 0 0 2% 2%;
         width: 96%;
     }
-    .water-per-capita{
+    #water-per-capita{
         display: block;
         width: 96%;
     }
