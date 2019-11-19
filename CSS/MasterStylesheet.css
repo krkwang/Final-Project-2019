@@ -10,6 +10,10 @@ body {
 	overflow-y: scroll;
 	background-color: #f5f6fa;
 }
+::selection{
+	color: white;
+	background: black;
+}
 a {
 }
 h1 {
@@ -534,7 +538,7 @@ main.page {
     #illustrasjon{
         margin-left: 2%;
     }
-    
+
     #water-share{
         display: block;
         margin: 0 0 2% 2%;
