@@ -502,6 +502,9 @@ main.page {
 .content .sol{
     padding-top: 10px;
 }
+.faq h2 {
+	font-size: 1.17em;
+}
 
 /*	SOURCES
 ----------------------------------*/
