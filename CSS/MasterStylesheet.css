@@ -377,16 +377,28 @@ main.page {
     color: blue;
 }
 
-.water-share{
-	display: inline-block;
-	width: 40%;
-	margin: 0 2% 2% 2%;
+.map-images {
+	display:flex;
+	margin: 0 1%;
 }
 
-.water-per-capita{
-	display: inline-block;
-	width: 40%;
-	margin-bottom: 2%;
+.map-images .image {
+	max-width: 1000px;
+	margin: 1%;
+}
+
+.map-images .image img {
+	width: 100%;
+}
+
+
+@media (max-width: 1200px) {
+	.map-images {
+		flex-wrap: wrap;
+	}
+	.map-images .image {
+		margin: 2% auto;
+	}
 }
 
 /*	SOLUTION
