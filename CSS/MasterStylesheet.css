@@ -334,12 +334,81 @@ main.page {
 	background-image: url("../Pictures/water1.jpg");
 	background-size: cover;
 	background-position: center;
-	padding-top: 10em;
+	/*padding-top: 10em;*/
 	height: 25em;
 	text-align: center;
 	color: #f7f1e3;
-	text-shadow: -2px 2px black;
+	/*text-shadow: -2px 2px black;*/
+    display: grid;
+    align-items: center; 
+    justify-content: center;
+   /* height: 70vh;*/
+    /*background-attachment: fixed;*/
+    
 }
+
+/* frosted glass effect*/ 
+
+section {
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /*background: url("../Pictures/water1.jpg");*/
+    /*height: 100vh;*/
+    background: inherit;
+    border-radius: 5px; 
+}
+
+section .transbox {
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+    color: #000;
+    
+}
+
+section .transbox:before {
+    content: "";
+    position: absolute; 
+    top: 20px;
+    left: -20px; 
+    right: -20px;
+    bottom: -20px; 
+    /*background: url("../Pictures/water1.jpg");*/
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255.5);
+    filter: blur(10px);
+    background: inherit; 
+}
+
+
+section .transbox h1, h2 {
+    position: relative;
+    margin: 0 0 20px;
+    padding: 0; 
+    text-transform: uppercase; 
+    z-index: 2; 
+}
+
+/* dett er kristian sitt:
+
+.transbox {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #ffffff;
+    border: 1px solid black; 
+    opacity: 0.7; */
+
+}
+
+/*.transbox h1, h2 {
+    margin: 5px;
+    font-weight: bold; 
+    color: black; */
+}
+
 .homeImage2{
 	background-image: url("../Pictures/water2.jpg");
 	background-size: cover;
@@ -348,8 +417,12 @@ main.page {
 	height: 20em;
 	text-align: center;
 	color: #f7f1e3;
+        display: grid; /* for å bli lik image1, men fikk det ikke til */
+        align-items: center; /* --||--- */
+        justify-content: center; /* ---||---- */
 	text-shadow: -2px 2px black;
 }
+
 .sourceRef{
 	text-decoration: none;
 	color: blue;
