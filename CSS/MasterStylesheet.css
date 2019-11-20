@@ -342,7 +342,7 @@ main.page {
 	height: 25em;
 	text-align: center;
 	color: #f7f1e3;
-	text-shadow: -1.5px 1.5px black;
+	text-shadow: -1.5px 1.5px #3b6fa9;
 }
 .homeImage2{
 	background-image: url("../Pictures/water2.jpg");
@@ -352,7 +352,7 @@ main.page {
 	height: 20em;
 	text-align: center;
 	color: #f7f1e3;
-	text-shadow: -1.5px 1.5px black;
+	text-shadow: -1.5px 1.5px #3b6fa9;
 }
 .sourceRef{
 	text-decoration: none;
@@ -433,7 +433,7 @@ main.page {
 ----------------------------------*/
 .prototype-header {
 	background-image: url("../Pictures/filter_blender.png");
-	text-shadow: -1.5px 1.5px black;
+	text-shadow: -1.5px 1.5px #17364b;
 	color: #f7f1e3;
 }
 .prototype-content1{
