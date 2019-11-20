@@ -371,7 +371,6 @@ section .transbox {
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     overflow: hidden;
     color: #000;
-    
 }
 
 section .transbox:before {
@@ -384,7 +383,6 @@ section .transbox:before {
     /*background: url("../Pictures/water1.jpg");*/
     box-shadow: inset 0 0 2000px rgba(255, 255, 255.5);
     filter: blur(10px);
-    background: inherit; 
 }
 
 
