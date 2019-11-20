@@ -10,6 +10,10 @@ body {
 	overflow-y: scroll;
 	background-color: #f5f6fa;
 }
+::selection{
+	color: white;
+	background: black;
+}
 a {
 }
 h1 {
@@ -450,16 +454,16 @@ section .transbox h1, h2 {
     color: blue;
 }
 
-.water-share{
+#water-share{
 	display: inline-block;
 	width: 40%;
-	margin: 0 2% 2% 2%;
+	margin: 0 2% 2% 8%;
 }
 
-.water-per-capita{
+#water-per-capita{
 	display: inline-block;
 	width: 40%;
-	margin-bottom: 2%;
+	margin: 0 0 2% 2%;
 }
 
 /*	SOLUTION
@@ -502,7 +506,7 @@ section .transbox h1, h2 {
 ----------------------------------*/
 .prototype-header {
 	background-image: url("../Pictures/filter_blender.png");
-	text-shadow: -2px 2px black;
+	text-shadow: -1.5px 1.5px #17364b;
 	color: #f7f1e3;
 }
 .prototype-content1{
@@ -600,6 +604,23 @@ section .transbox h1, h2 {
 		margin-left: 25%;
 		width: 50%;
 	}
+    .content .eksempelbilde{
+        margin-left: 2%;
+        width: 96%;
+    }
+    #illustrasjon{
+        margin-left: 2%;
+    }
+
+    #water-share{
+        display: block;
+        margin: 0 0 2% 2%;
+        width: 96%;
+    }
+    #water-per-capita{
+        display: block;
+        width: 96%;
+    }
 }
 
 @media (max-width: 800px){
