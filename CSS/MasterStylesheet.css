@@ -45,7 +45,7 @@ li{
 	height: 100px;
 	background-color: #f5f6fa;
 	z-index: 1000;
-	box-shadow: 0px 1px 50px -35px black;
+	box-shadow: 0 1px 50px -35px black;
 }
 .logo-link{
 	margin-left: 2%;
@@ -183,12 +183,12 @@ li{
 	height: 408px; /* Må oppdateres om størrelsen endres */
 	max-height: calc(100vh - 100px);
 	overflow-y: scroll;
-	box-shadow: 0px 2px 50px -35px black;
+	box-shadow: 0 2px 50px -35px black;
 }
 .dropdown:focus-within .nav-dropdown {
 	pointer-events: auto;
 	height: 408px; /* Må oppdateres om størrelsen endres */
-	box-shadow: 0px 2px 50px -35px black;
+	box-shadow: 0 2px 50px -35px black;
 }
 .dropdown:focus .dropdown-icon {
 	fill: #17364b;
@@ -320,10 +320,7 @@ main.page {
 	padding-top: 100px;
 }
 .content {
-	margin-top: 37px;
-	margin-bottom: 37px;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin: 37px 2% 37px 2%;
 	background-color: #c5d4e2;
 	word-wrap: break-word;
 }
@@ -511,10 +508,7 @@ section .transbox h1, h2 {
 .prototype-content1{
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 37px;
-	margin-bottom: 37px;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin: 37px 2% 37px 2%;
 	justify-content: space-between;
 }
 .prototype-content1 img{
@@ -564,10 +558,7 @@ section .transbox h1, h2 {
 	width: 90%;
 }
 .content-white {
-	margin-top: 37px;
-	margin-bottom: 37px;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin: 37px 2% 37px 2%;
 }
 
 @media (max-width: 1024px){
@@ -581,7 +572,7 @@ section .transbox h1, h2 {
 		margin: 0 auto;
 	}
 	.prototype-content1{
-		margin-bottom: 0px;
+		margin-bottom: 0;
 	}
 	.prototype-content2-picture-container{
 		width: 100%;
@@ -650,6 +641,7 @@ section .transbox h1, h2 {
 }
 .faq h2 {
 	font-size: 1.17em;
+	margin: 0;
 }
 
 /*	SOURCES
