@@ -17,7 +17,7 @@ body {
 a {
 }
 h1 {
-	font-size: 45px;
+	font-size: 40px;
 }
 h2 {
 }
@@ -236,6 +236,7 @@ li{
 	.dropdown {
 		display: none;
 	}
+	
 }
 @media (max-width: 600px){
 	.nav-dropdown{
@@ -401,15 +402,15 @@ section .transbox h1, h2 {
     margin-right: 25%;
     background-color: #ffffff;
     border: 1px solid black; 
-    opacity: 0.7; */
+    opacity: 0.7; 
 
-}
+}*/
 
 /*.transbox h1, h2 {
     margin: 5px;
     font-weight: bold; 
-    color: black; */
-}
+    color: black; 
+}*/
 
 .homeImage2{
 	background-image: url("../Pictures/water2.jpg");
@@ -619,6 +620,9 @@ section .transbox h1, h2 {
         display: block;
         width: 96%;
     }
+	h1{
+		font-size: 30px;
+	}
 }
 
 @media (max-width: 800px){
@@ -634,6 +638,11 @@ section .transbox h1, h2 {
 	}
 }
 
+@media (max-width: 425px){
+	.content p{
+		line-height: 1.5;
+	}
+}
 /*	ISSUES
 ----------------------------------*/
 .content .sol{
