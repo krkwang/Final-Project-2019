@@ -348,7 +348,7 @@ main.page {
 	position: relative;
 	z-index: 1;
 	background: inherit;
-	width: calc(auto + 10px;);
+	width: auto
 	height: auto;
 	padding: 5px 10px 5px 10px;
 }
