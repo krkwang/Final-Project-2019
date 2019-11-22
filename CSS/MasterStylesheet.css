@@ -305,7 +305,7 @@ li{
 .cover-image {
 	background-size: cover;
 	background-position: center;
-	padding-top: 10em;
+	/*padding-top: 10em;*/
 	height: 25em;
 	text-align: center;
 	color: white;
@@ -363,6 +363,7 @@ main.page {
   bottom: 0;
 	box-shadow: inset 0 0 1000px rgba(0, 0, 0, .5);
 	filter: blur(3px);
+	border-radius: 5px;
 
 }
 
