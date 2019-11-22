@@ -344,15 +344,17 @@ main.page {
   justify-content: center;
 	background-attachment: fixed;
 }
+.homeimage2 h2{
+	padding: 0 10px 0 10px;
+}
 
 .frosted-glass-container{
 	position: relative;
 	z-index: 1;
 	background: inherit;
-	min-width: 30vw;
-	width: auto;
+	width: calc(auto + 10px;);
 	height: auto;
-
+	padding: 5px 10px 5px 10px;
 }
 .frosted-glass-container:before{
 	content: "";
@@ -363,9 +365,9 @@ main.page {
   left: 0;
   right: 0;
   bottom: 0;
-	box-shadow: inset 0 0 1000px rgba(23, 54, 75, .5);
-	filter: blur(5px);
-	padding: 0 10px 0 10px;
+	box-shadow: inset 0 0 1000px rgba(0, 0, 0, .5);
+	filter: blur(3px);
+
 }
 
 /* frosted glass effect*/
@@ -526,8 +528,15 @@ section .transbox h1, h2 {
 ----------------------------------*/
 .prototype-header {
 	background-image: url("../Pictures/filter_blender.png");
-	text-shadow: -1.5px 1.5px #17364b;
+	background-size: cover;
+	background-position: center;
+	height: 25em;
+	text-align: center;
 	color: #f7f1e3;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+	background-attachment: fixed;
 }
 .prototype-content1{
 	display: flex;
