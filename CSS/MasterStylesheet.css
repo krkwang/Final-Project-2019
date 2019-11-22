@@ -425,6 +425,10 @@ section .transbox2 {
 	color: blue;
 }
 
+#underoverskrift{
+	margin: 0;
+}
+
 /*	PROBLEM
 ----------------------------------*/
 .problemImage{
