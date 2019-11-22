@@ -363,7 +363,7 @@ main.page {
   bottom: 0;
 	box-shadow: inset 0 0 1000px rgba(255, 255, 255, .25);
 	filter: blur(4px);
-	border-radius: 5px;
+	border-radius: 7px;
 
 }
 
@@ -527,6 +527,7 @@ section .transbox h1, h2 {
 	background-image: url("../Pictures/filter_blender.png");
 	background-size: cover;
 	background-position: center;
+	background-position-y: -170px;
 	height: 25em;
 	text-align: center;
 	color: black;
