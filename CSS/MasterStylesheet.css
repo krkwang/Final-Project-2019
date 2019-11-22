@@ -373,7 +373,7 @@ section .transbox {
     bottom: -20px; 
     /*background: url("../Pictures/water1.jpg");*/
     box-shadow: inset 0 0 2000px rgb(255, 255, 255.5);
-    filter: blur(3px);
+    filter: blur(10px);
     background: inherit;
 }
 
@@ -416,7 +416,7 @@ section .transbox2 {
     bottom: -20px; 
     /*background: url("../Pictures/water1.jpg");*/
     box-shadow: inset 0 0 2000px rgb(255, 255, 255);
-    filter: blur(3px);
+    filter: blur(10px);
     background: inherit;
 }
 
