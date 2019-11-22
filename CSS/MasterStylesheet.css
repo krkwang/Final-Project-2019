@@ -361,8 +361,8 @@ main.page {
   left: 0;
   right: 0;
   bottom: 0;
-	box-shadow: inset 0 0 1000px rgba(255, 255, 255, .30);
-	filter: blur(1px);
+	box-shadow: inset 0 0 1000px rgba(255, 255, 255, .25);
+	filter: blur(4px);
 	border-radius: 5px;
 
 }
