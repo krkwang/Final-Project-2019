@@ -344,10 +344,6 @@ main.page {
   justify-content: center;
 	background-attachment: fixed;
 }
-.homeimage2 h2{
-	padding: 0 10px 0 10px;
-}
-
 .frosted-glass-container{
 	position: relative;
 	z-index: 1;
