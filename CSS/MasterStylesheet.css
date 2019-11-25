@@ -456,7 +456,7 @@ section .transbox h1, h2 {
 	margin: 0;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1367px){
 	.homeImage1{
 		background-attachment: scroll;
 	}
