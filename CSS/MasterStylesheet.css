@@ -519,7 +519,6 @@ section .transbox h1, h2 {
 	display: block;
 	width: 20%;
 	height: 20%;
-	height: auto;
 	margin-left: 2%;
 }
 
