@@ -341,7 +341,7 @@ main.page {
   display: grid;
   align-items: center;
   justify-content: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 .frosted-glass-container{
 	position: relative;
@@ -421,7 +421,7 @@ section .transbox h1, h2 {
   display: grid; /* for å bli lik image1, men fikk det ikke til */
   align-items: center; /* --||--- */
 	justify-content: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 
 /*section .transbox2 {
