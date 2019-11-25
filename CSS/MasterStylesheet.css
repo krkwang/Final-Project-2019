@@ -350,6 +350,7 @@ main.page {
 	width: auto;
 	height: auto;
 	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
 }
 .frosted-glass-container:before{
 	content: "";
@@ -363,6 +364,7 @@ main.page {
 	box-shadow: inset 0 0 1000px rgba(255, 255, 255, .25);
 	filter: blur(4px);
 	border-radius: 7px;
+	background-size: 55em;
 
 }
 
