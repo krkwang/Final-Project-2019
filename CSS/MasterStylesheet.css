@@ -336,7 +336,7 @@ main.page {
 	background-image: url("../Pictures/water1.jpg");
 	background-size: cover;
 	background-position: center;
-	height: 25em;
+	height: 35em;
 	text-align: center;
 	color: black;
   display: grid;
@@ -414,7 +414,7 @@ section .transbox h1, h2 {
 	background-image: url("../Pictures/water2.jpg");
 	background-size: cover;
 	background-position: center;
-	height: 20em;
+	height: 25em;
 	text-align: center;
 	color: black;
   display: grid; /* for å bli lik image1, men fikk det ikke til */
@@ -527,14 +527,14 @@ section .transbox h1, h2 {
 	background-image: url("../Pictures/filter_blender.png");
 	background-size: cover;
 	background-position: center;
-	background-position-y: -170px;
+	/*background-position-y: -170px;*/
 	height: 25em;
 	text-align: center;
-	color: black;
+	color: white;
   display: grid;
   align-items: center;
   justify-content: center;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 }
 .prototype-content1{
 	display: flex;
