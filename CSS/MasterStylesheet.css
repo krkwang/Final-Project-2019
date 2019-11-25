@@ -393,7 +393,7 @@ section .transbox {
     top: -20px;
     left: -20px;
     right: -20px;
-    bottom: -20px; 
+    bottom: -20px;
     background: url("../Pictures/water1.jpg");
     box-shadow: inset 0 0 2000px rgb(255, 255, 255.5);
     filter: blur(10px);
@@ -438,8 +438,8 @@ section .transbox h1, h2 {
     top: -20px;
     left: -20px;
     right: -20px;
-    bottom: -20px; 
-    /*background: url("../Pictures/water1.jpg");*/
+    bottom: -20px;
+    /*background: url("../Pictures/water1.jpg");
     box-shadow: inset 0 0 2000px rgb(255, 255, 255);
     filter: blur(10px);
     background: inherit;
