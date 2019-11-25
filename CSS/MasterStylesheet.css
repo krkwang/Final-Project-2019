@@ -333,10 +333,10 @@ main.page {
 /*	HOME CONTENT (Henk) */
 
 .homeImage1{
-	background-image: url("../Pictures/nyForside2.jpg");
+	background-image: url("../Pictures/nyForside2_1.jpg");
 	background-size: cover;
 	background-position: center;
-	height: calc(100vh - 100px);
+	height: 25em;
 	text-align: center;
 	color: black;
   display: grid;
@@ -411,7 +411,7 @@ section .transbox h1, h2 {
 }*/
 
 .homeImage2{
-	background-image: url("../Pictures/water2_1.jpg");
+	background-image: url("../Pictures/water2_2.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 25em;
