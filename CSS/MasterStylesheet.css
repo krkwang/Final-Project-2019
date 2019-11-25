@@ -336,7 +336,7 @@ main.page {
 	background-image: url("../Pictures/nyForside2.jpg");
 	background-size: cover;
 	background-position: center;
-	height: 35em;
+	height: calc(100vh - 100px);
 	text-align: center;
 	color: black;
   display: grid;
