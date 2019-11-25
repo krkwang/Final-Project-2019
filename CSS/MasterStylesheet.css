@@ -76,31 +76,10 @@ li{
 	display: flex;
 	align-items: center;
 }
-.language-change svg{
-	fill: black;
-}
-.language-change:hover div{
-	color: #2f3640;
-}
-.language-change .nav-link-icon {
-	transition: fill 0.2s;
-}
-.nav-link.language-change-dropdown {
-	background-color: #17364b;
-}
-.language-change:hover,
-.nav-link.language-change-dropdown:hover {
+.language-change:hover {
 	background-color: #17364b;
 	font-style: oblique;
 	color: white;
-}
-.language-change:hover .nav-link-icon,
-.language-change-dropdown:hover .nav-link-icon-dropdown {
-	fill: white;
-}
-.language-change-centering {
-	display: inline-block;
-	color: black;
 }
 .language-container{
 	height: 100px;
@@ -139,10 +118,6 @@ li{
 	margin-right: 30px;
 	margin-left: 30px;
 	fill: white;
-}
-.nav-air {
-	flex-basis: 20%;
-	height: 100px;
 }
 .top a {
 	color: white;
@@ -203,11 +178,6 @@ li{
 	outline: none;
 }
 
-@media (max-width: 1440px) {
-	.nav-air {
-		flex-basis: 5%;
-	}
-}
 @media (max-width: 1209px) {
 	.nav-link-icon {
 		display: none;
@@ -301,13 +271,6 @@ li{
 /*	GENERAL
 ----------------------------------*/
 
-.cover-image {
-	background-size: cover;
-	background-position: center;
-	height: 25em;
-	text-align: center;
-	color: white;
-}
 
 /*	HOME
 ----------------------------------*/
@@ -361,7 +324,6 @@ main.page {
 	filter: blur(4px);
 	border-radius: 7px;
 	background-size: 55em;
-
 }
 
 .homeImage2{
@@ -375,11 +337,6 @@ main.page {
   	align-items: center; /* --||--- */
 	justify-content: center;
 	background-attachment: scroll;
-}
-
-.sourceRef{
-	text-decoration: none;
-	color: blue;
 }
 
 #underoverskrift{
@@ -403,17 +360,6 @@ main.page {
 	width: 40%;
 }
 
-.link {
-    color: black;
-}
-
-.link:visited {
-    color: mediumpurple;
-}
-
-.link:hover {
-    color: blue;
-}
 .problemImage i{
 	display: block;
 	margin: 0;
@@ -558,9 +504,6 @@ main.page {
     	margin-left: 2%;
     	width: 96%;
     }
-    #illustrasjon{
-        margin-left: 2%;
-    }
 
     .problemImage{
 		width: 80%;
@@ -598,9 +541,6 @@ main.page {
 }
 /*	ISSUES
 ----------------------------------*/
-.content .sol{
-    padding-top: 10px;
-}
 .faq h2 {
 	font-size: 1.17em;
 	margin: 0;
