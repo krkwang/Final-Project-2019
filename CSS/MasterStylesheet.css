@@ -103,7 +103,6 @@ li{
 	color: black;
 }
 .language-container{
-	display: block;
 	height: 100px;
 	display: flex;
 	align-items: center;
@@ -394,10 +393,10 @@ section .transbox {
     top: -20px;
     left: -20px;
     right: -20px;
-    bottom: -20px;
-    background: url("../Pictures/water1.jpg");
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255.5);
-    filter: blur(3px);
+    bottom: -20px; 
+    /*background: url("../Pictures/water1.jpg");*/
+    box-shadow: inset 0 0 2000px rgb(255, 255, 255.5);
+    filter: blur(10px);
     background: inherit;
 }
 
@@ -439,10 +438,10 @@ section .transbox h1, h2 {
     top: -20px;
     left: -20px;
     right: -20px;
-    bottom: -20px;
-    background: url("../Pictures/water1.jpg");
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255.5);
-    filter: blur(3px);
+    bottom: -20px; 
+    /*background: url("../Pictures/water1.jpg");*/
+    box-shadow: inset 0 0 2000px rgb(255, 255, 255);
+    filter: blur(10px);
     background: inherit;
 }*/
 
@@ -451,14 +450,16 @@ section .transbox h1, h2 {
 	color: blue;
 }
 
+#underoverskrift{
+	margin: 0;
+}
+
 /*	PROBLEM
 ----------------------------------*/
 .problemImage{
-	background-image: url("../Pictures/newScarcity.jpg");
-	background-size: cover;
-	background-position: center;
-	padding-top: 10em;
-	height: 500px;
+	display: inline-block;
+	margin-left: 6%;
+	width: 40%;
 }
 
 .link {
@@ -472,17 +473,14 @@ section .transbox h1, h2 {
 .link:hover {
     color: blue;
 }
-
-#water-share{
-	display: inline-block;
-	width: 40%;
-	margin: 0 2% 2% 8%;
+.problemImage i{
+	display: block;
+	margin: 0;
+	font-size: 18px;
 }
 
-#water-per-capita{
-	display: inline-block;
-	width: 40%;
-	margin: 0 0 2% 2%;
+.problemImage img{
+	width: 100%;
 }
 
 /*	SOLUTION
@@ -631,18 +629,14 @@ section .transbox h1, h2 {
     margin-left: 2%;
     width: 96%;
     }
-  #illustrasjon{
-    margin-left: 2%;
-  }
-  #water-share{
-    display: block;
-    margin: 0 0 2% 2%;
-    width: 96%;
-  }
-  #water-per-capita{
-    display: block;
-    width: 96%;
-  }
+    #illustrasjon{
+        margin-left: 2%;
+    }
+
+    .problemImage{
+		width: 80%;
+		margin-left: 10%;
+	}
 	h1{
 		font-size: 30px;
 	}
