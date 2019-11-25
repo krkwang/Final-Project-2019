@@ -502,6 +502,7 @@ section .transbox h1, h2 {
 	margin: 0;
 	padding: 0;
 }
+
 /*
 .flexsolution img {
 	display: block;
@@ -668,6 +669,13 @@ section .transbox h1, h2 {
 @media (max-width: 425px){
 	.content p{
 		line-height: 1.5;
+	}
+}
+@media (min-width: 1400px){
+	.solution-content{
+		max-width: 1500px;
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 }
 /*	ISSUES
