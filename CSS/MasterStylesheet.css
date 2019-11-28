@@ -445,6 +445,7 @@ main.page {
 	justify-content: space-between;
 }
 .prototype-content2-picture-container{
+	
 	display: flex;
 	width: 50%;
 	background-color: #c5d4e2;
@@ -453,6 +454,10 @@ main.page {
 }
 .prototype-content2-picture-container video{
 	width: 100%;
+}
+
+#ptype{
+	padding-top: 0;
 }
 .prototype-content2-picture-container p{
 	padding: 20px;
@@ -535,8 +540,7 @@ main.page {
 @media (min-width: 1400px){
 	.solution-content{
 		max-width: 1500px;
-		padding-left: 10%;
-		padding-right: 10%;
+		
 	}
 }
 /*	ISSUES
